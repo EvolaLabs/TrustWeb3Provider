@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.platform         = :ios, '12.0'
   s.swift_version    = '5.0'
   s.source_files     = 'dist/**/*.{h,m,swift}' 
+  s.resources        = ['dist/*.js']
   s.frameworks       = 'UIKit', 'Foundation'
 end
